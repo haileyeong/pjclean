@@ -40,7 +40,6 @@ public class Trash {
 
   public static Trash fromDto(TrashDto dto) {
     return Trash.builder()
-        .id((long) dto.get연번())
         .region(dto.get자치구명())
         .address(dto.get설치위치도로명주소())
         .district(dto.get행정동())
